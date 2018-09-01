@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="description" content="今天看见一张 PHP 面试图片(一)"/>
+
+
+
+
+  <meta name="keywords" content="PHP," />
+
+
+
+
+
+  <link rel="alternate" href="/default" title="部落格">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=1.1" />
+
+
+
+<link rel="canonical" href="https://www.baiachen.com/2018/09/01/今天看见一张-PHP-面试图片-一/"/>
+
+
+<meta name="description" content="早上看见群里有人发了张关于PHP面试的题目，一共23道题目，我也来答下题目吧。  1. isset和array_key_exists之间的区别？array_key_exists()array_key_exists会检查键值的存在。这个函数会返回true，只要键值存在，即使值为null。12345678$fruits = [    &apos;apple&apos; =&amp;gt; &apos;red&apos;,    &apos;banana&apos;">
+<meta name="keywords" content="PHP">
+<meta property="og:type" content="article">
+<meta property="og:title" content="今天看见一张 PHP 面试图片(一)">
+<meta property="og:url" content="https://www.baiachen.com/2018/09/01/今天看见一张-PHP-面试图片-一/index.html">
+<meta property="og:site_name" content="部落格">
+<meta property="og:description" content="早上看见群里有人发了张关于PHP面试的题目，一共23道题目，我也来答下题目吧。  1. isset和array_key_exists之间的区别？array_key_exists()array_key_exists会检查键值的存在。这个函数会返回true，只要键值存在，即使值为null。12345678$fruits = [    &apos;apple&apos; =&amp;gt; &apos;red&apos;,    &apos;banana&apos;">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-09-01T02:54:48.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="今天看见一张 PHP 面试图片(一)">
+<meta name="twitter:description" content="早上看见群里有人发了张关于PHP面试的题目，一共23道题目，我也来答下题目吧。  1. isset和array_key_exists之间的区别？array_key_exists()array_key_exists会检查键值的存在。这个函数会返回true，只要键值存在，即使值为null。12345678$fruits = [    &apos;apple&apos; =&amp;gt; &apos;red&apos;,    &apos;banana&apos;">
+
+
+<link rel="stylesheet" type="text/css" href="/css/style.css?v=1.1" />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+
+
+
+
+
+<script type="text/javascript">
+  var themeConfig = {
+    fancybox: {
+      enable: false
+    },
+  };
+</script>
+
+
+
+
+  
+
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-124884440-1', 'auto');
+        ga('send', 'pageview');
+  </script>
+
+
+
+    <title> 今天看见一张 PHP 面试图片(一) - 部落格 </title>
+  </head>
+
+  <body>
+    <div id="page">
+      <header id="masthead"><div class="site-header-inner">
+    <h1 class="site-title">
+        <a href="/." class="logo">部落格</a>
+    </h1>
+
+    <nav id="nav-top">
+        
+            <ul id="menu-top" class="nav-top-items">
+                
+                    <li class="menu-item">
+                        <a href="/archives">
+                            
+                            
+                                文章
+                            
+                        </a>
+                    </li>
+                
+                    <li class="menu-item">
+                        <a href="/about">
+                            
+                            
+                                关于
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        
+  </nav>
+</div>
+
+      </header>
+      <div id="content">
+        
+    <div id="primary">
+        
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          今天看见一张 PHP 面试图片(一)
+        
+      </h1>
+
+      <time class="post-time">
+          9月 01 2018
+      </time>
+    </header>
+
+
+
+    
+            <div class="post-content">
+            <blockquote>
+<p>早上看见群里有人发了张关于<code>PHP</code>面试的题目，一共<strong>23</strong>道题目，我也来答下题目吧。</p>
+</blockquote>
+<h1 id="1-isset和array-key-exists之间的区别？"><a href="#1-isset和array-key-exists之间的区别？" class="headerlink" title="1. isset和array_key_exists之间的区别？"></a>1. <code>isset</code>和<code>array_key_exists</code>之间的区别？</h1><h4 id="array-key-exists"><a href="#array-key-exists" class="headerlink" title="array_key_exists()"></a>array_key_exists()</h4><p><code>array_key_exists</code>会检查键值的存在。这个函数会返回<code>true</code>，只要键值存在，即使值为<code>null</code>。<br><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$fruits = [</span><br><span class="line">    <span class="string">'apple'</span> =&gt; <span class="string">'red'</span>,</span><br><span class="line">    <span class="string">'banana'</span> =&gt; <span class="string">'yellow'</span>,</span><br><span class="line">    <span class="string">'orange'</span> =&gt; <span class="keyword">null</span></span><br><span class="line">];</span><br><span class="line">array_key_exists(<span class="string">"apple"</span>, $fruits);       <span class="comment">// true </span></span><br><span class="line">array_key_exists(<span class="string">"banana"</span>, $fruits);      <span class="comment">// true </span></span><br><span class="line">array_key_exists(<span class="string">"orange"</span>, $fruits);      <span class="comment">// true</span></span><br></pre></td></tr></table></figure></p>
+<p>8 行<br><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">array_key_exists(<span class="string">"orange"</span>, $fruits);      <span class="comment">// true</span></span><br></pre></td></tr></table></figure></p>
+<p>使用<code>array_key_exists(&quot;orange&quot;, $fruits)</code>返回值为<code>true</code></p>
+<h4 id="isset"><a href="#isset" class="headerlink" title="isset()"></a>isset()</h4><p><code>isset</code>和<code>array_key_exists</code>不同，<code>isset</code>会同时检查键和值，只有当健存在，对应的变量不为<code>null</code>的时候才会返回<code>true</code>。<br><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$fruits = [</span><br><span class="line">    <span class="string">'apple'</span> =&gt; <span class="string">'red'</span>,</span><br><span class="line">    <span class="string">'banana'</span> =&gt; <span class="string">'yellow'</span>,</span><br><span class="line">    <span class="string">'orange'</span> =&gt; <span class="keyword">null</span></span><br><span class="line">];</span><br><span class="line"><span class="keyword">isset</span>($fruits[<span class="string">"apple"</span>]);      <span class="comment">// true </span></span><br><span class="line"><span class="keyword">isset</span>($fruits[<span class="string">"banana"</span>]);     <span class="comment">// true </span></span><br><span class="line"><span class="keyword">isset</span>($fruits[<span class="string">"orange"</span>]);     <span class="comment">// false</span></span><br></pre></td></tr></table></figure></p>
+<p>8 行<br><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">isset</span>($fruits[<span class="string">"orange"</span>]);     <span class="comment">// false</span></span><br></pre></td></tr></table></figure></p>
+<p>使用<code>isset($fruits[&quot;orange&quot;])</code>返回值为<code>false</code></p>
+<h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h2><p>基本的区别是<code>isset</code>可用于数组和变量，<code>array_key_exists</code>只能用于数组，但是最主要的区别在于在设定的条件下的返回值，该用哪个取决于应用程序的需求。</p>
+
+            </div>
+          
+
+    
+      <footer class="post-footer">
+		
+		<div class="post-tags">
+		  
+			<a href="/tags/PHP/">PHP</a>
+		  
+		</div>
+		
+
+        
+        
+  <nav class="post-nav">
+    
+    
+      <a class="next" href="/2018/08/30/hello-world/">
+        <span class="next-text nav-default">Hello World</span>
+        <span class="prev-text nav-mobile">Next</span>
+        <i class="iconfont icon-right"></i>
+      </a>
+    
+  </nav>
+
+        
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+      </footer>
+    
+  </article>
+
+    </div>
+
+      </div>
+
+      <footer id="colophon"><span class="copyright-year">
+    
+        &copy;
+    
+    2018
+    <span class="footer-author">baiachen.</span>
+    <span class="power-by">
+        Powered by <a class="hexo-link" href="https://hexo.io/">Hexo</a> and <a class="theme-link" href="https://github.com/frostfan/hexo-theme-polarbear">Polar Bear</a>
+    </span>
+</span>
+
+      </footer>
+
+      <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+      </div>
+    </div>
+    
+
+
+    
+
+
+
+
+  
+    <script type="text/javascript" src="/lib/jquery/jquery-3.1.1.min.js"></script>
+  
+
+  
+
+    <script type="text/javascript" src="/js/src/theme.js?v=1.1"></script>
+<script type="text/javascript" src="/js/src/bootstrap.js?v=1.1"></script>
+
+  </body>
+</html>
